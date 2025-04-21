@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudo-elementos/links</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+        a{
+            color: blueviolet;
+            text-decoration: none;
+        }
+        a:visited{
+            color: rgb(47, 15, 75);
+        }
+        a:hover{
+            text-decoration: underline;
+            color:black;
+        }
+        a:active{
+            color: rgb(202, 81, 0);
+        }
+        a::after{
+            content: '[link]'
+        }
+        a::before{
+            content:  '=>'
+        }
+    </style>
+</head>
+<body>
+    <h1>personalização de links</h1>
+    <ul>
+        <li><a href="https://www.instagram.com/isaac_philip_silva/">insta</a></li>
+        <li><a href="https://www.youtube.com/@furebiz12343">canal do youtube</a></li>
+    </ul>
+
+</body>
+</html>

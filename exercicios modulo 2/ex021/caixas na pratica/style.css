@@ -1,0 +1,19 @@
+body{
+    background-color: rgb(247, 151, 127);
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    color: rgb(73, 26, 26);
+    font-family: Arial, Helvetica, sans-serif;
+     width: 200px;
+     height: 80px;
+     border-width: 11px;
+     border-style: solid;
+     border-color:rgb(73, 26, 26);
+     padding: 10px 10px 10px 10px;
+     margin: 20px 20px 20px 20px;
+     margin: auto;
+     outline-width: 11px;
+     outline-style: dashed;
+     outline-color: rgb(19, 3, 3);
+}

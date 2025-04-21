@@ -1,0 +1,21 @@
+@charset "UTF-8";
+body{
+    background-color: rgb(112, 175, 230);
+}
+h1{
+    color:rgb(0, 0, 32);
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+}
+h1#eusoudiferente{
+    color: brown;
+}
+.utilizandomesmascaracteristicas{
+    color: blueviolet;
+    font-size: xx-large;
+}

@@ -1,0 +1,16 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    /* lighter normal bold border*/
+}
+h1{
+    /*font-family: 'work sans', 'sans-serif';
+    font-weight: bolder;
+    font-size: 3em;
+    font-style: italic;*/
+    /*podemos fazer todo esse codigo em apenas um so*/
+    font: italic bolder 3em 'work sans', 'sans serif';
+} 
+h2{
+    font: bold 2em 'work sans';
+}
