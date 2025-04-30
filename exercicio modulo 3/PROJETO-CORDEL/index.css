@@ -1,9 +1,14 @@
 @charset "UTF-8";
 
-body{
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: white;
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
+:root{
+    --font1: Arial, Helvetica, sans-serif;
+    --font2: "Titan One", sans-serif;
+    --font3: "Dancing Script", sans-serif;
 }
+
 *{
     margin: 0px;
     padding: 0px;
@@ -11,18 +16,22 @@ body{
 html, body{
     min-height: 100vh;
     background-color: gray;
+    font-family: var(--font1);
 }
 header{
     background-color: black;
     color: white;
     text-align: center;
+    font-size: 7vw;
 }
 header > h1{
     padding-top: 50px;
     font-variant: small-caps;
+    font-family: var(--font2);
 }
 header > p{
     padding-bottom: 50px;
+    
 }
 a{
     color: white;
@@ -37,6 +46,8 @@ section{
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
+    font-family: var(--font3);
+    font-size: 3em;
 }
 section.normal{
     background-color: white;
