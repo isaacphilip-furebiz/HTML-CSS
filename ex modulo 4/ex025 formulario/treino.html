@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>treinin</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        body{
+            background-color: antiquewhite;
+            text-align: center;
+        }
+        h1{
+            color: rgba(255, 0, 0, 0.733);
+            padding: 10px;
+            background-color: white;
+            
+        }
+        p{
+            padding: 5px;
+            font-size: larger;
+        }
+        form{
+            padding: 20px;
+            background-color: rgba(255, 0, 0, 0.178);
+            height: 500px; 
+            width: 500px;  
+            
+             }
+        
+            
+    </style>
+</head>
+<body>
+    <h1>cadastro para entrar no site do youtube</h1>
+    <p>adicione suas informações abaixo</p>
+    <form action="cadastro.php" method="get" autocomplete="off">
+        <p>
+            <label for="inome">nome completo</label>
+            <input type="text" name="nome" id="inome">         
+        </p>
+        <p>
+            <label for="iemail">email</label>
+            <input type="email" name="email" id="iemail">
+        </p>
+        <p>
+            <label for="isenha">senha</label>
+            <input type="password" name="senha" id="isenha">
+        </p>
+        <p>
+            <input type="submit" value="enviar">
+            <input type="reset" value="limpar">
+        </p>
+    </form>
+</body>
+</html>

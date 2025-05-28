@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>controles</title>
+</head>
+<body>
+    <h1>mais controles disponiveis 
+        <form action="cadastro.php" method="get">
+            <fieldset>
+                <legend>dados pessoais</legend>
+                <p>
+                    <label for="iemail">email</label>
+                    <input type="email" nome="email" id="iemail" autocomplete="off">
+                </p>
+                <p>
+                    <label for="itel">telefone</label>
+                    <input type="tel" name="tel" id="itel" autocomplete="tel" pattern="^[0-9]{4}-[0-9]{4}&">
+                </p>
+                <p>
+                    <input type="submit" value="enviar">
+                    <input type="reset" value="limpar">
+                </p>
+            </fieldset>
+        </form>
+    </h1>
+</body>
+</html>
