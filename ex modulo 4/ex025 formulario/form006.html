@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mais controles input</title>]
+    <style>
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+        form{
+            background-color: gray;
+            height: 400px;
+            width: 400px;
+            text-align: center;
+        }
+        .caixa{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>mais controles input</h1>
+    <form action="cadastro.php" class="caixa">
+        <p>
+            <label for="inome">nome:</label>
+            <input type="text" name="nome" id="inome"> 
+        </p>
+        <p>
+            <label for="icor">cor:</label>
+            <input type="color" name="cor" id="icor">
+        </p>
+        <p>
+            <label for="inivel">o quanto vc gostou do experimento?</label>
+            <input type="range" name="nivel" id="inivel">
+        </p>
+        <p>
+            <input type="submit" value="enviar">
+            <input type="reset" value="limpar">
+        </p>
+    </form>
+</body>
+</html>
